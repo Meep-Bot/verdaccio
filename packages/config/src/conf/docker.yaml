@@ -10,7 +10,8 @@
 # https://verdaccio.org/docs/best
 
 # Path to a directory with all packages
-storage: /verdaccio/storage/data
+# storage: /verdaccio/storage/data
+storage: /tmp/verdaccio/storage
 
 # Path to a directory with plugins to include, the plugins folder has the higher priority for loading plugins
 # Disable this folder to avoid warnings if is not used
